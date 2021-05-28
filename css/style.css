@@ -312,7 +312,7 @@ header {
     background-color: var(--clr-dark);
     background-image: url(../bg-mywork.jpg);
     background-size: cover;
-    background-blend-mode: multiply;  /*makni ovo ako je pretamno*/
+    background-blend-mode: overlay;  /*makni ovo ako je pretamno*/
     color: var(--clr-light);
     text-align: center;
     
@@ -510,4 +510,9 @@ header {
 
 .social-list__link {
     padding: .5em;
+}
+
+.social-list__icon {
+    height: 2em;
+    padding-bottom: 0.5em;
 }
